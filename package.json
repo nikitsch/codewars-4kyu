@@ -15,10 +15,11 @@
   },
   "license": "ISC",
   "author": "nikitsch",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "lint": "eslint . --fix",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "test": "vitest"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
@@ -27,6 +28,8 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "globals": "^15.14.0",
-    "prettier": "^3.4.2"
+    "prettier": "^3.4.2",
+    "typescript-eslint": "^8.19.1",
+    "vitest": "^2.1.8"
   }
 }
